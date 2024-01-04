@@ -17,8 +17,7 @@ def validation(TABLE):                           # pour valider les colonnes et 
         for j in range( len(TABLE[i]) - 1):
             for k in range(j+1 , len(TABLE[i]) ):
                 if TABLE[i][j] == TABLE[i][k]:
-                    # print("----------------> No valider <----------------")
-                    # print("---> Nomber repeter est " ,TABLE[i][k] ,".")
+                    print("|       ---> Nombre repeter est " ,TABLE[i][k] ,"." ,"      |")
                     return False
                     
     return True  
